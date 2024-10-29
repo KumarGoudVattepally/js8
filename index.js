@@ -7,4 +7,21 @@ for(i in arr){
         
     }
 }console.log(arr1);
- var arr
+ var arrr=["htmL","csS","javaScrIPT","react","angulaR","noDE","EXPREss"]
+var arrr1=[]
+   for(i in arrr){
+    if(arrr[i][arrr[i].length-1]==arrr[i][arrr[i].length-1].toUpperCase())
+        
+    arrr1 [ arrr1.length]=arrr[i]
+    
+   }
+console.log(arrr1);
+var arr2=["html","css","js","react","angular"]
+var arr22=[]
+for(i in arr2)
+if( i%2==0){
+   arr22[arr22.length]=arr2[i];
+    
+    
+}
+console.log(arr22);
